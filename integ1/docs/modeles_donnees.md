@@ -62,7 +62,7 @@ erDiagram
 
 ## Remarques d’implémentation
 
-- Le script SQL utilise des identités Oracle, des types `DATE`, des contraintes de domaine et des index destinés aux recherches et alertes.
+- Le script SQL est compatible Oracle XE 11g : des séquences et triggers génèrent les identifiants, avec des types `DATE`, des contraintes de domaine et des index destinés aux recherches et alertes.
 - La table `EQUIPEMENT` conserve les champs utilisés par le module Qt existant et ajoute le centre et l’expiration pour le modèle commun.
 - Le prototype intégré actuel contient les pages Qt Véhicules, Équipements et Interventions. Employés, zones, campagnes et planning sont documentés et présents dans le schéma commun ; leurs écrans CRUD ne sont pas encore implémentés dans ce prototype.
 - Le pilote Oracle utilisé par Qt est `QODBC`. Le serveur Oracle et le pilote ODBC natif doivent être installés sur le poste avant de pouvoir valider une connexion Oracle réelle.
