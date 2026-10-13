@@ -2,7 +2,6 @@
 #include "connexion.h"
 
 #include <QApplication>
-#include <QMessageBox>
 #include <QIcon>
 
 int main(int argc, char *argv[])
@@ -13,8 +12,6 @@ int main(int argc, char *argv[])
     app.setStyle("Fusion");
 
     if (!Connexion::ouvrir()) {
-        QMessageBox::critical(nullptr, "Base de données",
-                              "Impossible d'ouvrir la base de données des équipements.");
         return 1;
     }
 
