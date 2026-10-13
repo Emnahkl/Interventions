@@ -1,0 +1,34 @@
+<RCC>
+  <qresource prefix="/interventions">
+    <file alias="images/arrow_down.png">station_images/arrow_down.png</file>
+    <file alias="images/arrow_up.png">station_images/arrow_up.png</file>
+    <file alias="images/fire_bg.jpeg">station_images/fire_bg.jpeg</file>
+    <file alias="images/logo_icone.png">station_images/logo_icone.png</file>
+    <file alias="images/logo.png">station_images/logo.png</file>
+    <file alias="images/sidebar_bg.png">station_images/sidebar_bg.png</file>
+    <file alias="icons/add.png">station_icons/add.png</file>
+    <file alias="icons/avatar.png">station_icons/avatar.png</file>
+    <file alias="icons/bell.png">station_icons/bell.png</file>
+    <file alias="icons/calendar.png">station_icons/calendar.png</file>
+    <file alias="icons/delete.png">station_icons/delete.png</file>
+    <file alias="icons/edit.png">station_icons/edit.png</file>
+    <file alias="icons/employes.png">station_icons/employes.png</file>
+    <file alias="icons/equipements.png">station_icons/equipements.png</file>
+    <file alias="icons/gear.png">station_icons/gear.png</file>
+    <file alias="icons/home.png">station_icons/home.png</file>
+    <file alias="icons/interventions.png">station_icons/interventions.png</file>
+    <file alias="icons/menu.png">station_icons/menu.png</file>
+    <file alias="icons/parametres.png">station_icons/parametres.png</file>
+    <file alias="icons/pdf.png">station_icons/pdf.png</file>
+    <file alias="icons/power.png">station_icons/power.png</file>
+    <file alias="icons/robot.png">station_icons/robot.png</file>
+    <file alias="icons/route.png">station_icons/route.png</file>
+    <file alias="icons/search.png">station_icons/search.png</file>
+    <file alias="icons/sensibilisation.png">station_icons/sensibilisation.png</file>
+    <file alias="icons/stats.png">station_icons/stats.png</file>
+    <file alias="icons/team.png">station_icons/team.png</file>
+    <file alias="icons/vehicules.png">station_icons/vehicules.png</file>
+    <file alias="icons/view.png">station_icons/view.png</file>
+    <file alias="icons/zones.png">station_icons/zones.png</file>
+  </qresource>
+</RCC>
