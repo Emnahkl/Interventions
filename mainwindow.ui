@@ -9,7 +9,7 @@
 QMainWindow, QWidget#centralwidget { background: #F4F5F7; }
 
 /* ---------- Sidebar ---------- */
-QFrame#frameSidebar { background: qlineargradient(x1:0,y1:0,x2:0,y2:1, stop:0 #C62828, stop:0.55 #8E1B1B, stop:1 #3A0B0B); }
+QFrame#frameSidebar { background-color: #8E1B1B; background-image: url(:/images/sidebar_firefighter.jpg); background-position: center; background-repeat: no-repeat; }
 QFrame#frameSidebar QLabel { color: white; background: transparent; }
 QLabel#lblNomApp { font-size: 15pt; font-weight: bold; letter-spacing: 1px; }
 QLabel#lblSlogan { font-size: 8pt; letter-spacing: 2px; color: rgba(255,255,255,200); }

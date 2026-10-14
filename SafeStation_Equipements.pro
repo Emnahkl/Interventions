@@ -1,5 +1,5 @@
 QT       += core gui widgets sql charts
-CONFIG   += c++11
+CONFIG   += c++17
 TARGET    = SafeStation_Equipements
 TEMPLATE  = app
 
