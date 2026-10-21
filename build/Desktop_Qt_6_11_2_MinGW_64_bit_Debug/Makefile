@@ -282,7 +282,6 @@ Makefile: ../../GestionInterventions.pro C:/QT/6.11.2/mingw_64/mkspecs/win32-g++
 		C:/QT/6.11.2/mingw_64/mkspecs/features/qt_config.prf \
 		C:/QT/6.11.2/mingw_64/mkspecs/win32-g++/qmake.conf \
 		C:/QT/6.11.2/mingw_64/mkspecs/features/spec_post.prf \
-		.qmake.stash \
 		C:/QT/6.11.2/mingw_64/mkspecs/features/exclusive_builds.prf \
 		C:/QT/6.11.2/mingw_64/mkspecs/features/toolchain.prf \
 		C:/QT/6.11.2/mingw_64/mkspecs/features/default_pre.prf \
@@ -290,6 +289,7 @@ Makefile: ../../GestionInterventions.pro C:/QT/6.11.2/mingw_64/mkspecs/win32-g++
 		C:/QT/6.11.2/mingw_64/mkspecs/features/resolve_config.prf \
 		C:/QT/6.11.2/mingw_64/mkspecs/features/exclusive_builds_post.prf \
 		C:/QT/6.11.2/mingw_64/mkspecs/features/default_post.prf \
+		C:/QT/6.11.2/mingw_64/mkspecs/features/win32/console.prf \
 		C:/QT/6.11.2/mingw_64/mkspecs/features/qml_debug.prf \
 		C:/QT/6.11.2/mingw_64/mkspecs/features/precompile_header.prf \
 		C:/QT/6.11.2/mingw_64/mkspecs/features/warn_on.prf \
@@ -302,7 +302,6 @@ Makefile: ../../GestionInterventions.pro C:/QT/6.11.2/mingw_64/mkspecs/win32-g++
 		C:/QT/6.11.2/mingw_64/mkspecs/features/uic.prf \
 		C:/QT/6.11.2/mingw_64/mkspecs/features/qmake_use.prf \
 		C:/QT/6.11.2/mingw_64/mkspecs/features/file_copies.prf \
-		C:/QT/6.11.2/mingw_64/mkspecs/features/win32/windows.prf \
 		C:/QT/6.11.2/mingw_64/mkspecs/features/testcase_targets.prf \
 		C:/QT/6.11.2/mingw_64/mkspecs/features/exceptions.prf \
 		C:/QT/6.11.2/mingw_64/mkspecs/features/yacc.prf \
@@ -310,10 +309,11 @@ Makefile: ../../GestionInterventions.pro C:/QT/6.11.2/mingw_64/mkspecs/win32-g++
 		../../GestionInterventions.pro \
 		C:/QT/6.11.2/mingw_64/lib/Qt6Widgets.prl \
 		C:/QT/6.11.2/mingw_64/lib/Qt6Gui.prl \
+		C:/QT/6.11.2/mingw_64/lib/Qt6Sql.prl \
 		C:/QT/6.11.2/mingw_64/lib/Qt6Core.prl \
-		C:/QT/6.11.2/mingw_64/lib/Qt6EntryPoint.prl \
+		.qmake.stash \
 		C:/QT/6.11.2/mingw_64/mkspecs/features/build_pass.prf \
-		../../interventions.qrc
+		../../resources.qrc
 	$(QMAKE) -o Makefile ..\..\GestionInterventions.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
 C:/QT/6.11.2/mingw_64/mkspecs/features/spec_pre.prf:
 C:/QT/6.11.2/mingw_64/mkspecs/features/device_config.prf:
@@ -527,7 +527,6 @@ C:/QT/6.11.2/mingw_64/mkspecs/features/qt_functions.prf:
 C:/QT/6.11.2/mingw_64/mkspecs/features/qt_config.prf:
 C:/QT/6.11.2/mingw_64/mkspecs/win32-g++/qmake.conf:
 C:/QT/6.11.2/mingw_64/mkspecs/features/spec_post.prf:
-.qmake.stash:
 C:/QT/6.11.2/mingw_64/mkspecs/features/exclusive_builds.prf:
 C:/QT/6.11.2/mingw_64/mkspecs/features/toolchain.prf:
 C:/QT/6.11.2/mingw_64/mkspecs/features/default_pre.prf:
@@ -535,6 +534,7 @@ C:/QT/6.11.2/mingw_64/mkspecs/features/win32/default_pre.prf:
 C:/QT/6.11.2/mingw_64/mkspecs/features/resolve_config.prf:
 C:/QT/6.11.2/mingw_64/mkspecs/features/exclusive_builds_post.prf:
 C:/QT/6.11.2/mingw_64/mkspecs/features/default_post.prf:
+C:/QT/6.11.2/mingw_64/mkspecs/features/win32/console.prf:
 C:/QT/6.11.2/mingw_64/mkspecs/features/qml_debug.prf:
 C:/QT/6.11.2/mingw_64/mkspecs/features/precompile_header.prf:
 C:/QT/6.11.2/mingw_64/mkspecs/features/warn_on.prf:
@@ -547,7 +547,6 @@ C:/QT/6.11.2/mingw_64/mkspecs/features/win32/opengl.prf:
 C:/QT/6.11.2/mingw_64/mkspecs/features/uic.prf:
 C:/QT/6.11.2/mingw_64/mkspecs/features/qmake_use.prf:
 C:/QT/6.11.2/mingw_64/mkspecs/features/file_copies.prf:
-C:/QT/6.11.2/mingw_64/mkspecs/features/win32/windows.prf:
 C:/QT/6.11.2/mingw_64/mkspecs/features/testcase_targets.prf:
 C:/QT/6.11.2/mingw_64/mkspecs/features/exceptions.prf:
 C:/QT/6.11.2/mingw_64/mkspecs/features/yacc.prf:
@@ -555,10 +554,11 @@ C:/QT/6.11.2/mingw_64/mkspecs/features/lex.prf:
 ../../GestionInterventions.pro:
 C:/QT/6.11.2/mingw_64/lib/Qt6Widgets.prl:
 C:/QT/6.11.2/mingw_64/lib/Qt6Gui.prl:
+C:/QT/6.11.2/mingw_64/lib/Qt6Sql.prl:
 C:/QT/6.11.2/mingw_64/lib/Qt6Core.prl:
-C:/QT/6.11.2/mingw_64/lib/Qt6EntryPoint.prl:
+.qmake.stash:
 C:/QT/6.11.2/mingw_64/mkspecs/features/build_pass.prf:
-../../interventions.qrc:
+../../resources.qrc:
 qmake: FORCE
 	@$(QMAKE) -o Makefile ..\..\GestionInterventions.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
 

@@ -33,6 +33,7 @@ public:
     QFrame *sidebar;
     QVBoxLayout *sidebarLayout;
     QLabel *logoLabel;
+    QSpacerItem *logoSpacer;
     QPushButton *btnHome;
     QPushButton *btnEmployes;
     QPushButton *btnVehicules;
@@ -77,6 +78,7 @@ public:
     QVBoxLayout *cardTermineeLayout;
     QLabel *lblTermineeTitle;
     QLabel *lblTerminee;
+    QSpacerItem *cardsSpacer;
     QFrame *actionsFrame;
     QVBoxLayout *actionsLayout;
     QHBoxLayout *actionsRow1;
@@ -101,7 +103,7 @@ public:
     {
         if (GestionInterventions->objectName().isEmpty())
             GestionInterventions->setObjectName("GestionInterventions");
-        GestionInterventions->resize(1800, 900);
+        GestionInterventions->resize(1529, 820);
         GestionInterventions->setStyleSheet(QString::fromUtf8("* { font-family: \"Segoe UI\", \"Helvetica Neue\", Arial; font-size: 13px; color: #1f2937; }\n"
 "QWidget#GestionInterventions { background: #eef0f4; }\n"
 "QFrame#centerFrame, QFrame#content { background: #eef0f4; border: none; }\n"
@@ -227,6 +229,10 @@ public:
         logoLabel->setScaledContents(true);
 
         sidebarLayout->addWidget(logoLabel, 0, Qt::AlignmentFlag::AlignHCenter);
+
+        logoSpacer = new QSpacerItem(20, 14, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
+
+        sidebarLayout->addItem(logoSpacer);
 
         btnHome = new QPushButton(sidebar);
         btnHome->setObjectName("btnHome");
@@ -524,6 +530,10 @@ public:
 
 
         cardsLayout->addWidget(cardTerminee);
+
+        cardsSpacer = new QSpacerItem(20, 20, QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Minimum);
+
+        cardsLayout->addItem(cardsSpacer);
 
 
         contentLayout->addLayout(cardsLayout);

@@ -1,0 +1,20 @@
+GestionInterventions - module Interventions (Qt + Oracle via ODBC)
+
+AVANT DE COMPILER
+1. Oracle XE démarré, utilisateur créé, source ODBC 64 bits créée et testée
+   (nom : Source_Projet2A, utilisateur : emna12).
+2. Exécuter sql/interventions.sql dans SQL Developer (F5) avec le même utilisateur.
+3. Dans connection.cpp, remplacer VOTRE_MOT_DE_PASSE par ton mot de passe Oracle.
+   Si ton nom de source ODBC / utilisateur / mot de passe sont différents,
+   les changer en haut de connection.cpp.
+
+COMPILER
+- Ouvrir GestionInterventions.pro dans Qt Creator, choisir un kit 64 bits
+  (compilateur 64 bits obligatoire).
+- Build > Run qmake, puis Ctrl+R.
+
+FICHIERS
+- connection.h/.cpp        : connexion Oracle (Singleton)
+- intervention.h/.cpp      : classe Intervention + CRUDs (ajouter, modifier, supprimer, afficher)
+- gestioninterventions.*   : fenêtre (interface .ui) branchée sur la classe
+- sql/interventions.sql    : tables ZONE_COUVERTURE et INTERVENTIONS (+ séquence et trigger)

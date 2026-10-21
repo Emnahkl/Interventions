@@ -38,10 +38,41 @@ template <> constexpr inline auto GestionInterventions::qt_create_metaobjectdata
 {
     namespace QMC = QtMocConstants;
     QtMocHelpers::StringRefStorage qt_stringData {
-        "GestionInterventions"
+        "GestionInterventions",
+        "rafraichir",
+        "",
+        "ajouter",
+        "modifier",
+        "supprimer",
+        "consulter",
+        "exporterPdf",
+        "trierParDate",
+        "trierParGravite",
+        "afficherStats",
+        "fonctionnaliteAVenir"
     };
 
     QtMocHelpers::UintData qt_methods {
+        // Slot 'rafraichir'
+        QtMocHelpers::SlotData<void()>(1, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'ajouter'
+        QtMocHelpers::SlotData<void()>(3, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'modifier'
+        QtMocHelpers::SlotData<void()>(4, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'supprimer'
+        QtMocHelpers::SlotData<void()>(5, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'consulter'
+        QtMocHelpers::SlotData<void()>(6, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'exporterPdf'
+        QtMocHelpers::SlotData<void()>(7, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'trierParDate'
+        QtMocHelpers::SlotData<void()>(8, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'trierParGravite'
+        QtMocHelpers::SlotData<void()>(9, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'afficherStats'
+        QtMocHelpers::SlotData<void()>(10, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'fonctionnaliteAVenir'
+        QtMocHelpers::SlotData<void()>(11, 2, QMC::AccessPrivate, QMetaType::Void),
     };
     QtMocHelpers::UintData qt_properties {
     };
@@ -63,9 +94,21 @@ Q_CONSTINIT const QMetaObject GestionInterventions::staticMetaObject = { {
 void GestionInterventions::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     auto *_t = static_cast<GestionInterventions *>(_o);
-    (void)_t;
-    (void)_c;
-    (void)_id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        switch (_id) {
+        case 0: _t->rafraichir(); break;
+        case 1: _t->ajouter(); break;
+        case 2: _t->modifier(); break;
+        case 3: _t->supprimer(); break;
+        case 4: _t->consulter(); break;
+        case 5: _t->exporterPdf(); break;
+        case 6: _t->trierParDate(); break;
+        case 7: _t->trierParGravite(); break;
+        case 8: _t->afficherStats(); break;
+        case 9: _t->fonctionnaliteAVenir(); break;
+        default: ;
+        }
+    }
     (void)_a;
 }
 
@@ -85,6 +128,18 @@ void *GestionInterventions::qt_metacast(const char *_clname)
 int GestionInterventions::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = QWidget::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 10)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 10;
+    }
+    if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 10)
+            *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
+        _id -= 10;
+    }
     return _id;
 }
 QT_WARNING_POP

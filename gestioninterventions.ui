@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1800</width>
-    <height>900</height>
+    <width>1529</width>
+    <height>820</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -178,12 +178,25 @@ QFrame#rightPanel QPushButton#btnEnvoyerWhatsapp { background: #22a559; }
          <string/>
         </property>
         <property name="pixmap">
-         <pixmap resource="interventions.qrc">:/images/logo.png</pixmap>
+         <pixmap resource="resources.qrc">:/images/logo.png</pixmap>
         </property>
         <property name="scaledContents">
          <bool>true</bool>
         </property>
        </widget>
+      </item>
+      <item>
+       <spacer name="logoSpacer">
+        <property name="orientation">
+         <enum>Qt::Orientation::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>14</height>
+         </size>
+        </property>
+       </spacer>
       </item>
       <item>
        <widget class="QPushButton" name="btnHome">
@@ -194,7 +207,7 @@ QFrame#rightPanel QPushButton#btnEnvoyerWhatsapp { background: #22a559; }
          <string>  Home</string>
         </property>
         <property name="icon">
-         <iconset resource="interventions.qrc">
+         <iconset resource="resources.qrc">
           <normaloff>:/icons/home.png</normaloff>:/icons/home.png</iconset>
         </property>
         <property name="iconSize">
@@ -220,7 +233,7 @@ QFrame#rightPanel QPushButton#btnEnvoyerWhatsapp { background: #22a559; }
          <string>  Employés</string>
         </property>
         <property name="icon">
-         <iconset resource="interventions.qrc">
+         <iconset resource="resources.qrc">
           <normaloff>:/icons/employes.png</normaloff>:/icons/employes.png</iconset>
         </property>
         <property name="iconSize">
@@ -246,7 +259,7 @@ QFrame#rightPanel QPushButton#btnEnvoyerWhatsapp { background: #22a559; }
          <string>  Véhicules</string>
         </property>
         <property name="icon">
-         <iconset resource="interventions.qrc">
+         <iconset resource="resources.qrc">
           <normaloff>:/icons/vehicules.png</normaloff>:/icons/vehicules.png</iconset>
         </property>
         <property name="iconSize">
@@ -272,7 +285,7 @@ QFrame#rightPanel QPushButton#btnEnvoyerWhatsapp { background: #22a559; }
          <string>  Équipements</string>
         </property>
         <property name="icon">
-         <iconset resource="interventions.qrc">
+         <iconset resource="resources.qrc">
           <normaloff>:/icons/equipements.png</normaloff>:/icons/equipements.png</iconset>
         </property>
         <property name="iconSize">
@@ -298,7 +311,7 @@ QFrame#rightPanel QPushButton#btnEnvoyerWhatsapp { background: #22a559; }
          <string>  Interventions</string>
         </property>
         <property name="icon">
-         <iconset resource="interventions.qrc">
+         <iconset resource="resources.qrc">
           <normaloff>:/icons/interventions.png</normaloff>:/icons/interventions.png</iconset>
         </property>
         <property name="iconSize">
@@ -327,7 +340,7 @@ QFrame#rightPanel QPushButton#btnEnvoyerWhatsapp { background: #22a559; }
          <string>  Zone de couverture</string>
         </property>
         <property name="icon">
-         <iconset resource="interventions.qrc">
+         <iconset resource="resources.qrc">
           <normaloff>:/icons/zones.png</normaloff>:/icons/zones.png</iconset>
         </property>
         <property name="iconSize">
@@ -353,7 +366,7 @@ QFrame#rightPanel QPushButton#btnEnvoyerWhatsapp { background: #22a559; }
          <string>  Sensibilisation</string>
         </property>
         <property name="icon">
-         <iconset resource="interventions.qrc">
+         <iconset resource="resources.qrc">
           <normaloff>:/icons/sensibilisation.png</normaloff>:/icons/sensibilisation.png</iconset>
         </property>
         <property name="iconSize">
@@ -379,7 +392,7 @@ QFrame#rightPanel QPushButton#btnEnvoyerWhatsapp { background: #22a559; }
          <string>  Paramètres</string>
         </property>
         <property name="icon">
-         <iconset resource="interventions.qrc">
+         <iconset resource="resources.qrc">
           <normaloff>:/icons/parametres.png</normaloff>:/icons/parametres.png</iconset>
         </property>
         <property name="iconSize">
@@ -469,7 +482,7 @@ QFrame#rightPanel QPushButton#btnEnvoyerWhatsapp { background: #22a559; }
             <string/>
            </property>
            <property name="icon">
-            <iconset resource="interventions.qrc">
+            <iconset resource="resources.qrc">
              <normaloff>:/icons/menu.png</normaloff>:/icons/menu.png</iconset>
            </property>
            <property name="iconSize">
@@ -509,7 +522,7 @@ QFrame#rightPanel QPushButton#btnEnvoyerWhatsapp { background: #22a559; }
             <string/>
            </property>
            <property name="icon">
-            <iconset resource="interventions.qrc">
+            <iconset resource="resources.qrc">
              <normaloff>:/icons/bell.png</normaloff>:/icons/bell.png</iconset>
            </property>
            <property name="iconSize">
@@ -529,7 +542,7 @@ QFrame#rightPanel QPushButton#btnEnvoyerWhatsapp { background: #22a559; }
             <string/>
            </property>
            <property name="icon">
-            <iconset resource="interventions.qrc">
+            <iconset resource="resources.qrc">
              <normaloff>:/icons/gear.png</normaloff>:/icons/gear.png</iconset>
            </property>
            <property name="iconSize">
@@ -558,7 +571,7 @@ QFrame#rightPanel QPushButton#btnEnvoyerWhatsapp { background: #22a559; }
             <string/>
            </property>
            <property name="pixmap">
-            <pixmap resource="interventions.qrc">:/icons/avatar.png</pixmap>
+            <pixmap resource="resources.qrc">:/icons/avatar.png</pixmap>
            </property>
            <property name="scaledContents">
             <bool>true</bool>
@@ -581,7 +594,7 @@ QFrame#rightPanel QPushButton#btnEnvoyerWhatsapp { background: #22a559; }
             <string/>
            </property>
            <property name="icon">
-            <iconset resource="interventions.qrc">
+            <iconset resource="resources.qrc">
              <normaloff>:/icons/power.png</normaloff>:/icons/power.png</iconset>
            </property>
            <property name="iconSize">
@@ -831,6 +844,19 @@ QFrame#rightPanel QPushButton#btnEnvoyerWhatsapp { background: #22a559; }
              </layout>
             </widget>
            </item>
+           <item>
+            <spacer name="cardsSpacer">
+             <property name="orientation">
+              <enum>Qt::Orientation::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
           </layout>
          </item>
          <item>
@@ -865,7 +891,7 @@ QFrame#rightPanel QPushButton#btnEnvoyerWhatsapp { background: #22a559; }
                  <string>Ajouter</string>
                 </property>
                 <property name="icon">
-                 <iconset resource="interventions.qrc">
+                 <iconset resource="resources.qrc">
                   <normaloff>:/icons/add.png</normaloff>:/icons/add.png</iconset>
                 </property>
                 <property name="iconSize">
@@ -885,7 +911,7 @@ QFrame#rightPanel QPushButton#btnEnvoyerWhatsapp { background: #22a559; }
                  <string>Modifier</string>
                 </property>
                 <property name="icon">
-                 <iconset resource="interventions.qrc">
+                 <iconset resource="resources.qrc">
                   <normaloff>:/icons/edit.png</normaloff>:/icons/edit.png</iconset>
                 </property>
                 <property name="iconSize">
@@ -905,7 +931,7 @@ QFrame#rightPanel QPushButton#btnEnvoyerWhatsapp { background: #22a559; }
                  <string>Supprimer</string>
                 </property>
                 <property name="icon">
-                 <iconset resource="interventions.qrc">
+                 <iconset resource="resources.qrc">
                   <normaloff>:/icons/delete.png</normaloff>:/icons/delete.png</iconset>
                 </property>
                 <property name="iconSize">
@@ -925,7 +951,7 @@ QFrame#rightPanel QPushButton#btnEnvoyerWhatsapp { background: #22a559; }
                  <string>Consulter</string>
                 </property>
                 <property name="icon">
-                 <iconset resource="interventions.qrc">
+                 <iconset resource="resources.qrc">
                   <normaloff>:/icons/view.png</normaloff>:/icons/view.png</iconset>
                 </property>
                 <property name="iconSize">
@@ -965,7 +991,7 @@ QFrame#rightPanel QPushButton#btnEnvoyerWhatsapp { background: #22a559; }
                  <string>Exporter PDF</string>
                 </property>
                 <property name="icon">
-                 <iconset resource="interventions.qrc">
+                 <iconset resource="resources.qrc">
                   <normaloff>:/icons/pdf.png</normaloff>:/icons/pdf.png</iconset>
                 </property>
                 <property name="iconSize">
@@ -985,7 +1011,7 @@ QFrame#rightPanel QPushButton#btnEnvoyerWhatsapp { background: #22a559; }
                  <string>Trier selon la date</string>
                 </property>
                 <property name="icon">
-                 <iconset resource="interventions.qrc">
+                 <iconset resource="resources.qrc">
                   <normaloff>:/icons/calendar.png</normaloff>:/icons/calendar.png</iconset>
                 </property>
                 <property name="iconSize">
@@ -1005,7 +1031,7 @@ QFrame#rightPanel QPushButton#btnEnvoyerWhatsapp { background: #22a559; }
                  <string>Trier selon la gravité</string>
                 </property>
                 <property name="icon">
-                 <iconset resource="interventions.qrc">
+                 <iconset resource="resources.qrc">
                   <normaloff>:/icons/interventions.png</normaloff>:/icons/interventions.png</iconset>
                 </property>
                 <property name="iconSize">
@@ -1025,7 +1051,7 @@ QFrame#rightPanel QPushButton#btnEnvoyerWhatsapp { background: #22a559; }
                  <string>Statistiques</string>
                 </property>
                 <property name="icon">
-                 <iconset resource="interventions.qrc">
+                 <iconset resource="resources.qrc">
                   <normaloff>:/icons/stats.png</normaloff>:/icons/stats.png</iconset>
                 </property>
                 <property name="iconSize">
@@ -1045,7 +1071,7 @@ QFrame#rightPanel QPushButton#btnEnvoyerWhatsapp { background: #22a559; }
                  <string>Affectation automatique</string>
                 </property>
                 <property name="icon">
-                 <iconset resource="interventions.qrc">
+                 <iconset resource="resources.qrc">
                   <normaloff>:/icons/team.png</normaloff>:/icons/team.png</iconset>
                 </property>
                 <property name="iconSize">
@@ -1065,7 +1091,7 @@ QFrame#rightPanel QPushButton#btnEnvoyerWhatsapp { background: #22a559; }
                  <string>Parcours recommandé</string>
                 </property>
                 <property name="icon">
-                 <iconset resource="interventions.qrc">
+                 <iconset resource="resources.qrc">
                   <normaloff>:/icons/route.png</normaloff>:/icons/route.png</iconset>
                 </property>
                 <property name="iconSize">
@@ -1190,7 +1216,7 @@ QFrame#rightPanel QPushButton#btnEnvoyerWhatsapp { background: #22a559; }
   </layout>
  </widget>
  <resources>
-  <include location="interventions.qrc"/>
+  <include location="resources.qrc"/>
  </resources>
  <connections/>
 </ui>

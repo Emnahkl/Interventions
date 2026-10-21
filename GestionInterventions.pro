@@ -1,12 +1,23 @@
-QT += core gui widgets
-greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
-CONFIG += c++17
+QT += core gui widgets sql
+CONFIG += console
 
-SOURCES += main.cpp \
-           gestioninterventions.cpp
+TARGET = GestionInterventions
+TEMPLATE = app
 
-HEADERS += gestioninterventions.h
+# Les fichiers sources sont en UTF-8 (accents dans les textes)
+msvc: QMAKE_CXXFLAGS += /utf-8
+
+SOURCES += \
+    main.cpp \
+    gestioninterventions.cpp \
+    connection.cpp \
+    intervention.cpp
+
+HEADERS += \
+    gestioninterventions.h \
+    connection.h \
+    intervention.h
 
 FORMS += gestioninterventions.ui
 
-RESOURCES += interventions.qrc
+RESOURCES += resources.qrc
